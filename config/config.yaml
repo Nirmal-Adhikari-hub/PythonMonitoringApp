@@ -1,0 +1,10 @@
+websites:
+  - url: "https://websiteA.com"
+    check: "status_code"
+    expected: 200
+  - url: "https://api.goherogo.com/api/login"
+    check: "login"
+    credentials:
+      username: "testuser"
+      password: "testpass"
+    expected: "Login successful"
